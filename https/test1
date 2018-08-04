@@ -1,0 +1,20 @@
+//to create an open ssl
+openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pe
+
+//Testing the curd operations on file in lob/data
+const _data = require('./lib/data');
+
+// TESTING
+// @TODO delete this
+// _data.create('test', 'newFile', {'foo':'bar'}, function(err){
+//     console.log('this was the error', err);
+// })
+// _data.update('test', 'newFile', {'fizz':'bar'}, function(err){
+//     console.log('this was the error', err);
+// })
+// _data.read('test', 'newFile', function(err, data){
+//     console.log('this was the error', err, 'and this was the data', data);
+// })
+// _data.delete('test', 'newFile', function(err){
+//     console.log('this was the error', err);
+// })
