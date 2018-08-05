@@ -1,5 +1,3 @@
 .data/test/
 .data/users/
 .data/tokens/
-https/cert.pem
-https/key.pem
