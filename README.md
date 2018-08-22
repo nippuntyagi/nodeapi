@@ -1,6 +1,6 @@
 
 # Add following folders to your Coloned repo
-    # .data > tokens, .data > users
+    # .data > tokens, .data > users, .data > checks
     # https
 
 # Add ssl certificate file in https folder
